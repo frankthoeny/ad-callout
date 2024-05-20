@@ -1,0 +1,10 @@
+ad_callout:
+  js:
+    js/build/ckeditor5_ad_callout.js: { preprocess: false, minified: true }
+  dependencies:
+    - core/ckeditor5
+
+admin.ad_callout:
+  css:
+    theme:
+      css/ad_callout.admin.css: { }

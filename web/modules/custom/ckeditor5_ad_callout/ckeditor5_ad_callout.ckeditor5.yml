@@ -1,0 +1,13 @@
+ckeditor5_ad_callout_ad_callout:
+  ckeditor5:
+    plugins:
+      - ckeditor5_ad_callout.AdCallout
+  drupal:
+    label: Ad Callout
+    class: \Drupal\ckeditor5_ad_callout\Plugin\CKEditor5Plugin\AdCallout
+    library: ckeditor5_ad_callout/ad_callout
+    admin_library: ckeditor5_ad_callout/admin.ad_callout
+    toolbar_items:
+      AdCallout:
+        label: Ad Callout
+    elements: false

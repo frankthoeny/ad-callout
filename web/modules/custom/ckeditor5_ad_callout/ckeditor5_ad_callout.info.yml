@@ -1,0 +1,7 @@
+name: 'Ad Callout'
+type: module
+description: 'Provides CKEditor5 Ad Callout plugin.'
+package: Advertisement
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:ckeditor5
